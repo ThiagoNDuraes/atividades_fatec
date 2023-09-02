@@ -1,0 +1,12 @@
+// Criar uma variável salario
+var salario = 3000; // Substitua o valor pelo salário atual
+
+// Criar uma variável aumento (porcentagem)
+var aumentoPercentual = 10; // Substitua o valor pela porcentagem de aumento desejada
+
+// Calcular o novo salário com aumento
+var aumento = (salario * aumentoPercentual) / 100;
+var novoSalario = salario + aumento;
+
+// Mostrar no console o texto
+console.log("Salário antigo: " + salario + " e Novo salário: " + novoSalario);
